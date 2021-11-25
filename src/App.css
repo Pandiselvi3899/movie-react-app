@@ -1,0 +1,141 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* min-height: 100vh; */
+  /* height: 100vh; */
+}
+/* -----Welcome--------- */
+.home {
+  width: 100%;
+  height: 100vh;
+  /* opacity: 0.7; */
+}
+/* .home-div {
+  text-align: center;
+} */
+/* --------------- */
+.movie-list {
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movie-container {
+  width: 340px;
+}
+
+.movie-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie--detail-container {
+  width: 60%;
+  padding: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.movie-detail-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -17px;
+}
+.movie-poster {
+  height: 500px;
+  width: 340px;
+  object-fit: cover;
+  background-color: teal;
+}
+
+.movie-rating {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.movie-name {
+  font-size: 24px;
+}
+
+.likes-dislikes {
+  font-size: 20px;
+}
+.counter-container {
+  display: flex;
+  gap: 10px;
+}
+.add-movie-form {
+  /* min-height: 100vh; */
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color-game {
+  margin: 50px;
+  /* min-height: 100vh; */
+}
+.edit-buttons {
+  /* margin: 20px; */
+  display: flex;
+  gap: 20px;
+}
+.notfound {
+  text-align: center;
+}
+
+/* --------------Tic tac toe-------------------- */
+.game-box {
+  height: 8rem;
+  width: 8rem;
+  font-size: 7rem;
+  /* background-color: white; */
+  color: black;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.board {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 8rem);
+  width: min-content;
+}
+
+.full-game {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+/* --------------------------------------------------- */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.basic-form {
+  /* margin-top: 10rem; */
+  margin: 10rem auto;
+  background-color: rgb(14, 82, 141);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(243, 188, 188);
+  padding: 100px;
+  width: 30rem;
+  /* height: 25rem; */
+}
